@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Times New Roman, sans-serif;
+}
+
+nav {
+    background-color: none;
+    padding: 12px;
+    text-align: left;
+}
+
+nav a {
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+.hero {
+    background-image: url("img/FK4.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+}
+
+
+.overlay h1, .overlay h2, .overlay p {
+    margin: 10px 0;
+}
+
+
+.facts {
+    display: flex;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.facts div {
+    text-align: left;
+}
+
+.facts h1 {
+    margin: 0;
+}
+
+.facts p {
+    margin: 0;
+}
+
+
+.programs {
+    background-color: #66c2b3;
+    padding: 20px;
+}
+
+.programs a {
+    color: blue;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
